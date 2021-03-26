@@ -1,0 +1,14 @@
+body {
+  background: lightblue url("../images/background/b01.jpg") no-repeat fixed
+    center;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 41, 131, 0.452);
+  color: white;
+  text-align: center;
+}
