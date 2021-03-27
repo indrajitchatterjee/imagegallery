@@ -32,71 +32,63 @@
         </div>
     </div>
 
+    <!-- navigation -->
     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">INDRA'S GALLERY</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#bishnupur">Bishnupur</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#sundarbon">Sundarbon</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#purulia">Purulia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#mukutmonipur">Mukutmonipur</a>
                 </li>
             </ul>
         </div>
     </nav>
     <div style="height: 5pt;"></div>
-    <div>
-        <h1>Indra's Image Gallery</h1>
-        <p>Here is some of the pictures of Indra</p>
-    </div>
+
+
+    <!-- main content -->
     <div class="container-fluid">
-
-        <div class="row">
-
-            <div class="col-sm-6 mx-auto">
-                <div class="card-deck">
-                    <div class="card">
-                        <div class="card-header">Bishnupur</div>
-                        <img class="card-img-top" src="images/bishnupur/01.JPG" alt="Card image cap" data-toggle="modal"
-                            data-target="#bishnupurModal">
-                        <div class="card-body">
-                            <h5 class="card-title">Bishnupur</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                                to
-                                additional
-                                content. This content is a little bit longer.</p>
-                        </div>
+        <div>
+            <h1>Indra's Image Gallery</h1>
+            <p>Here is some of the pictures of Indra</p>
+        </div>
+        <!-- Bishnupur Card -->
+        <div class="card mb-3 custom-card bg-orangered" id="bishnupur" data-toggle="modal"
+            data-target="#bishnupurModal">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="images/bishnupur/01.JPG" alt="Bishnupur" style="width: 400px;">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Bishnupur</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional
+                            content. This content is a little bit longer.</p>
                     </div>
-                    <div class="card">
-                        <div class="card-header">Sundarbon</div>
-                        <img class="card-img-top" src="images/sundarbon/01.jpg" alt="Card image cap" data-toggle="modal"
-                            data-target="#sundarbonModal">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                                content.
-                            </p>
-                        </div>
-                    </div>
-
                 </div>
             </div>
         </div>
-
         <!-- The bishnupur Modal -->
         <div class="modal fade" id="bishnupurModal">
             <div class="modal-dialog modal-lg modal-dialog-centered">
-                <div class="modal-content">
+                <div class="modal-content bg-orangered">
 
                     <!-- Modal Header -->
                     <div class="modal-header">
+                        <strong>Bishnupur Gallery</strong>
                         <button type="button button-samll" class="close" data-dismiss="modal">&times;</button>
                     </div>
 
@@ -128,13 +120,32 @@
                 </div>
             </div>
         </div>
+        <!-- sundarbon Card -->
+        <div class="card mb-3 custom-card bg-blue" id="sundarbon" data-toggle="modal" data-target="#sundarbonModal">
+            <div class="row g-0">
+
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Sundarbon</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional
+                            content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/sundarbon/01.jpg" alt="Sundarbon" style="width: 400px;">
+                </div>
+            </div>
+        </div>
+
         <!-- the sundarbon modal-->
-        <div class="modal fade" id="sundarbonModal">
-            <div class="modal-dialog modal-lg modal-dialog-centered">
-                <div class="modal-content">
+        <div class="modal fade " id="sundarbonModal">
+            <div class="modal-dialog modal-lg modal-dialog-centered bg-blue">
+                <div class="modal-content bg-blue">
 
                     <!-- Modal Header -->
                     <div class="modal-header">
+                        <strong>Sundarbon Gallery</strong>
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                     </div>
 
@@ -166,10 +177,152 @@
                 </div>
             </div>
         </div>
+
+        <!-- Purulia Card -->
+        <div class="card mb-3 custom-card bg-green" id="purulia" data-toggle="modal" data-target="#puruliaModal">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="images/purulia/01.jpg" alt="Sundarbon" style="width: 400px;">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Purulia</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional
+                            content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- the Purulia modal-->
+        <div class="modal fade" id="puruliaModal">
+            <div class="modal-dialog modal-lg modal-dialog-centered bg-blue">
+                <div class="modal-content bg-green">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <strong>Purulia Gallery</strong>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div id="carouselPurulia" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="images/purulia/01.JPG" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="images/purulia/02.jpg" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="images/purulia/03.jpg" alt="Third slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="images/purulia/04.jpg" alt="Third slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="images/purulia/05.jpg" alt="Third slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="images/purulia/06.jpg" alt="Third slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="images/purulia/07.jpg" alt="Third slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="images/purulia/08.jpg" alt="Third slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="images/purulia/09.jpg" alt="Third slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="images/purulia/10.jpg" alt="Third slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="images/purulia/11.jpg" alt="Third slide">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselPurulia" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselPurulia" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- mukutmonipur card -->
+        <div class="card mb-3 custom-card bg-violet" id="mukutmonipur" data-toggle="modal"
+            data-target="#mukutmonipurModal">
+            <div class="row g-0">
+
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Mukutmonipur</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional
+                            content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/mukutmonipur/01.jpg" alt="Sundarbon" style="width: 400px;">
+                </div>
+
+            </div>
+        </div>
+
+        <!-- mukutmonipur modal-->
+        <div class="modal fade" id="mukutmonipurModal">
+            <div class="modal-dialog modal-lg modal-dialog-centered bg-blue">
+                <div class="modal-content bg-violet">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <strong>Purulia Gallery</strong>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div id="carouselMukkutmonipur" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="images/mukutmonipur/01.jpg" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="images/mukutmonipur/02.jpg" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="images/mukutmonipur/03.jpg" alt="Third slide">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselMukkutmonipur" role="button"
+                                data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselMukkutmonipur" role="button"
+                                data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="footer">
-        <p>This is a sample page for test</p>
-    </div>
+
     <!--Latest stable release of jQuery Core Library-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -182,7 +335,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-
+    <div class="footer">
+        <p>This is a sample page for test</p>
+    </div>
 </body>
+
 
 </html>

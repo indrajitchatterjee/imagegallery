@@ -1,14 +1,43 @@
 body {
   background: lightblue url("../images/background/b01.jpg") no-repeat fixed
     center;
+  background-size: 100%;
+  color: antiquewhite;
 }
 
 .footer {
-  position: fixed;
+  /*position: fixed;*/
   left: 0;
   bottom: 0;
   width: 100%;
   background-color: rgba(0, 41, 131, 0.452);
   color: white;
   text-align: center;
+}
+
+.custom-card {
+  color: antiquewhite;
+  opacity: 0.8;
+}
+
+.bg-blue {
+  background-color: rgba(15, 119, 238, 0.603);
+  border-color: rgba(4, 78, 161, 0.671);
+  border-width: 2pt;
+}
+.bg-orangered {
+  background-color: orangered;
+  border-color: rgb(158, 45, 4);
+  border-width: 2pt;
+}
+.bg-green {
+  background-color: green;
+  border-color: rgb(3, 59, 3);
+  border-width: 2pt;
+}
+
+.bg-violet {
+  background-color: rgb(125, 12, 231, 0.623);
+  border-color: rgb(45, 5, 83, 0.623);
+  border-width: 2pt;
 }
