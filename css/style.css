@@ -1,7 +1,7 @@
 body {
   background: lightblue url("../images/background/b01.jpg") no-repeat fixed
     center;
-  background-size: 100%;
+  background-size: cover;
   color: antiquewhite;
 }
 
@@ -40,4 +40,11 @@ body {
   background-color: rgba(125, 12, 231, 0.603);
   border-color: rgba(45, 5, 83, 0.671);
   border-width: 2pt;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display: none;
 }
